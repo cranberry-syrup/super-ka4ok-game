@@ -4,7 +4,7 @@ import os
 
 size = x, y = 800, 600
 FPS = 60
-font = pygame.font.Font('assets/fonts/Monocraft.otf', 30)
+font_path = 'assets/fonts/Monocraft.ttf'
 
 def load_img(name, colorkey=None):
     fullname = os.path.join('data', name)
